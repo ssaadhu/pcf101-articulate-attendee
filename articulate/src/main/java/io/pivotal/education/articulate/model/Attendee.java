@@ -10,9 +10,8 @@ import lombok.EqualsAndHashCode;
 public class Attendee {
 
   private Long id;
-
   private String firstName, lastName;
-
+  //Added comment
   private String address, city, state, zipCode;
   private String phoneNumber, emailAddress;
 
